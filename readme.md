@@ -2,14 +2,14 @@
 
 - This is a project on scraping an html file with the example of [University of Toronto's quick facts](https://www.utoronto.ca/about-u-of-t/quick-facts).
 
-## How
+# How
 
 - First, I obtained some raw html texts. Then, I extracted info based on how the web page was organized, and obtained texts and figures for further analysis or organization.
 - ![Quick facts](https://www.utoronto.ca/sites/default/files/2023-09/graph-student-enrolment.jpg)
 
 - ![Funds chart](https://www.utoronto.ca/sites/default/files/2023-09/chart-research-funds.png)
 
-## Findings
+# Findings
 
 - It is a simple fact sheet about this public university such as its campuses, a breakdown of student populations, and sources of funding. Interestingly, while it is convenient for public viewing, the web page elements were not optimized nor well-organized for convenient scraping. I found that
 
