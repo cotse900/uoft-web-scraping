@@ -14,6 +14,8 @@
 
 # Findings
 
+## Scraping data
+
 - It is a simple fact sheet about this public university such as its campuses, a breakdown of student populations, and sources of funding. Interestingly, while it is convenient for public viewing, the web page elements were not optimized nor well-organized for convenient scraping. I found that
 
 ```
@@ -44,13 +46,19 @@ Undergraduates
 
 for comparison. New undergraduates and the summation of undergraduates show the same trend that a majority of undergraduates were at St. George, and Scarborough and Mississauga had a similar undergraduate population.
 
-- For some reason, United Kingdom and Great Britain were two separate entries of alumni. I fixed that.
+## An error
+
+- For some reason, United Kingdom and Great Britain were two separate entries of alumni. I fixed that by combining both. See below.
+
+## Student/alumni population by origin
+
+- Since Canada was the obvious giant country of origin in a Canadian school, I excluded Canada for a more balanced bar graph.
 
 - US was home to the second-largest group of alumni, but China will surpass the US soon with the second-largest current student population.
 
 - HK was home to a disproportionate number of alumni.
 
-- Further insights would be helpful for exploring budget files, for instance, in the form of PDF files (`PyPDF2`), as well as scraping graphical information since this project did not scrape much about funding other than a single figure.
+- Further insights would be helpful for exploring budget files, for instance, in the form of PDF files (`PyPDF2`), as well as scraping graphical information since this project did not scrape much about funding other than a single figure. Similarly, quick facts only reflected the most recent school year (2022-23), and we might be interested to know historical figures from other previous years.
 
 # Acknowledgement
 
